@@ -7,4 +7,4 @@ Route::get('/', function () {
     echo 'Blade Layouts';
 });
 
-Route::get('/show', [MainController::class, 'showPage']);
+Route::view('/show', [MainController::class, 'showPage']);
