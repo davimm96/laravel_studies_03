@@ -11,8 +11,7 @@ class MainController extends Controller
     {
         $data = [
             'João' => [
-                'Português',
-                'inglês'
+                'Português'
             ],
             'Maria' => [
                 'Português',
