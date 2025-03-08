@@ -9,7 +9,7 @@
 </div>--}}
 
 {{-- componentes e slots --}}
-<div>
+{{--<div>
     <h4 class="text-info">Como funciona um Slot?</h4>
     <x-other-card>
         <h1 class="text-danger">Este é o Slot!</h1>
@@ -29,5 +29,10 @@
         </ul>
     </x-slot>
     <x-slot:footer>Esse é o footer</x-slot>
-</x-multi-slot>
+</x-multi-slot>--}}
+
+<h4>Componente anônimo</h4>
+<x-alert-card>Primeira mensagem</x-alert-card>
+<x-alert-card>Segunda mensagem</x-alert-card>
+<x-alert-card>Terceira mensagem</x-alert-card>
 @endsection
